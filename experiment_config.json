@@ -1,0 +1,35 @@
+{
+  "method": "SPSA",
+  "lineage": {
+    "mode": "persistent",
+    "margin": 0.1,
+    "overlap": 0.1,
+    "ttl": 40,
+    "points": 80,
+    "minimum_group": 4,
+    "dummy": 0.25,
+    "birth_score": 0.85
+  },
+  "detector": {
+    "architecture": "YOLO11m",
+    "initialization": "COCO",
+    "epochs": 80,
+    "optimizer": "AdamW",
+    "batch": 4,
+    "image_long_side": 1280,
+    "rectangular": true,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0005,
+    "mixed_precision": true,
+    "cache_confidence": 0.05,
+    "nms_iou": 0.7,
+    "shared_across_compared_methods": true
+  },
+  "sequence_groups": {
+    "train": ["ZebraFish-01", "ZebraFish-02"],
+    "development": ["ZebraFish-03", "ZebraFish-04"],
+    "frozen_evaluation": ["ZebraFish-05", "ZebraFish-06", "ZebraFish-07", "ZebraFish-08"]
+  },
+  "HybridSORT_commit": "396f8d30db13304c0cbaf1dcf2e16ded93ce1701",
+  "TrackEval_commit": "12c8791b303e0a0b50f753af204249e622d0281a"
+}

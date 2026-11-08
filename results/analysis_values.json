@@ -1,0 +1,47 @@
+{
+  "source_sha256": "f80c71d78d3d5342c28b7ea80f0ba90f0fa24886101bc03a5536b24943030d6e",
+  "components": {
+    "labels": [
+      "Birth gate",
+      "Promotion",
+      "Rolling",
+      "No groups",
+      "No missing",
+      "SPSA"
+    ],
+    "HOTA": [
+      89.52,
+      89.52,
+      89.53,
+      85.45,
+      83.89,
+      90.29
+    ],
+    "IDSW": [
+      2,
+      2,
+      2,
+      4,
+      4,
+      0
+    ]
+  },
+  "margins": {
+    "margin": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "HOTA": [
+      85.44,
+      90.29,
+      90.29
+    ],
+    "IDSW": [
+      4,
+      0,
+      0
+    ]
+  },
+  "new_inference": false
+}

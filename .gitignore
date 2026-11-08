@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+external/
+datasets/
+models/
+outputs/
+*.pt
+*.pth
+*.npz
+*.zip
+.env
+hosts.yml
