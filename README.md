@@ -90,9 +90,3 @@ Raw images, annotations, cached detections, and model weights are not
 redistributed. Obtain 3D-ZeF from https://github.com/vapaau/3D-ZeF and follow its
 license. Detector configuration is in `experiment_config.json`.
 
-## Sources
-
-The host is Hybrid-SORT by Yang et al. (AAAI 2024). Point containment follows
-the line of work represented by NetTrack (Zheng et al., CVPR 2024).
-SPSA uses Shi--Tomasi corners and Lucas--Kanade optical flow.
-Dependencies retain their own licenses. See `NOTICE.md`.
